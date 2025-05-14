@@ -114,7 +114,7 @@ function ImageUpload() {
               </div>
             </div>
           ) : (
-            <div className="p-5 border border-dashed mt-5">
+            <div className="p-5 border border-[#5b3bb2] border-dashed mt-5">
               <Image
                 src={previewUrl}
                 alt="preview"

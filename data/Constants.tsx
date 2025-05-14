@@ -36,7 +36,7 @@ AiModelList:[
         {
             name:'Gemini Google',
             icon:'/google.png',
-            modelName:'google/gemini-2.5-pro-exp-03-25:free'
+            modelName:'google/gemini-2.0-flash-exp:free'
         },
         {
           name:'Gemma',
@@ -44,19 +44,25 @@ AiModelList:[
           modelName:'google/gemma-3-27b-it:free'
       },
       {
+        name:'Mistral',
+        icon:'/Mistral.png',
+        modelName:'mistralai/mistral-small-3.1-24b-instruct:free'
+    },
+      {
         name:'Qwen',
         icon:'/qwen.png',
-        modelName:'qwen/qwen2.5-vl-72b-instruct:free'
+        modelName:'qwen/qwen3-0.6b-04-28:free'
     },
     {
-      name:'Llama by Meta',
-      icon:'/meta.png',
-      modelName:'meta-llama/llama-3.3-70b-instruct:free'
+      name:'OpenGV',
+      icon:'/opengv.png',
+      modelName:'opengvlab/internvl3-14b:free'
   },
+
       {
         name:'DeepSeek',
         icon:'/deepseek.png',
-        modelName:'deepseek/deepseek-r1-distill-llama-70b:free'
+        modelName:'deepseek/deepseek-v3-base:free'
     },
     ],
     DEPENDANCY: {

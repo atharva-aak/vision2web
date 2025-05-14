@@ -79,7 +79,7 @@ function ViewCode() {
             const { done, value } = await reader.read();
             if (done) break;
 
-            const text = (decoder.decode(value)).replace('```jsx', '').replace('```javascript', '').replace('javascript', '').replace('jsx', '').replace('```', '');
+            const text = (decoder.decode(value)).replace('```jsx', '').replace('```javascript', '').replace('javascript', '').replace('jsx', '').replace('```js','').replace('js','').replace('```', '');
             setCodeResp((prev) => prev + text);
             console.log(text);
 
