@@ -35,7 +35,7 @@ You are an expert frontend frontend React developer. You will be given a descrip
 AiModelList:[
         {
             name:'Gemini Google',
-            icon:'/google.png',
+            icon:'/openai.png',
             modelName:'openai/gpt-oss-20b:free'
         },
         {
